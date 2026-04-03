@@ -148,7 +148,7 @@ text-decoration: underline;
 .container div {
   animation: fadeIn 3s ease;
 }
-@media (max-width:990px) {
+@media (max-width:600px) {
 .container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -234,7 +234,7 @@ font-size: 25px;
 <div class="footer_bottom">
     <p>© 2026 Cartify. All rights reserved.</p>
 </div>
-    <script>
+<script>
       let getProducts = () => {
         let products = fetch("https://dummyjson.com/products")
           .then((response) => {
@@ -289,6 +289,6 @@ menubtn.onclick = function () {
   menuList.classList.toggle("show");
 };
 
-    </script>
+</script>
   </body>
 </html>
